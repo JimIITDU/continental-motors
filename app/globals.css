@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/*
+  NOTE: the line above is for Tailwind v4 (what `create-next-app@latest` installs).
+  If your project uses Tailwind v3, replace it with:
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+*/
+
+:root {
+  --bg-page: #161616;
+  --bg-frame: #d6d6d6;
+  --text-light: #f5f5f5;
+  --text-dark: #141414;
+  --pill-border: rgba(255, 255, 255, 0.55);
+}
+
+/* Font utility classes (fonts themselves are loaded in layout.tsx via next/font) */
+.font-display {
+  font-family: var(--font-michroma), sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-poppins), sans-serif;
+}
